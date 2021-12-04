@@ -4,7 +4,7 @@
   "description": "API para ordenes de compra y venta.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "Danna Marin",
   "license": "ISC",
