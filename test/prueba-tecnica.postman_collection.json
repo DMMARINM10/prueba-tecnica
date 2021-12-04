@@ -20,9 +20,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{url}}/purchase/",
+					"raw": "localhost:8080/purchase/",
 					"host": [
-						"{{url}}"
+						"localhost"
 					],
 					"path": [
 						"purchase",
@@ -47,9 +47,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{url}}/sale/",
+					"raw": "localhost:8080/sale/",
 					"host": [
-						"{{url}}"
+						"localhost"
 					],
 					"path": [
 						"sale",
