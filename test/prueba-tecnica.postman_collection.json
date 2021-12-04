@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "95bfbed4-4e65-490f-8208-1645ded00d0f",
+		"name": "prueba-tecnica",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create Purchase",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Quantity\": 3,\r\n    \"idProduct\": \"222\",\r\n    \"ProductName\": \"mesa\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/purchase/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"purchase",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Sale",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Quantity\": 1,\r\n    \"idProduct\": \"222\",\r\n    \"ProductName\": \"mesa\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/sale/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"sale",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
